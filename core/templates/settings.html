@@ -1,0 +1,29 @@
+{% extends "layouts/base.html" %} {% block title %} Dashboard {% endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %} {% block content %}
+
+<div class="pcoded-content">
+  <div class="pcoded-inner-content">
+    <!-- [ breadcrumb ] start -->
+    <!-- [ breadcrumb ] end -->
+
+    <form action="/getname" method="post">
+      {% csrf_token %}
+      <div>
+        <label for="your_name" class="form-control">Your new Value: </label
+        ><br />
+      </div>
+      <div>
+        <input id="temp" type="text" name="temp" class="form-control" />
+      </div>
+      <br />
+      <input type="submit" value="OK" class="btn btn-primary" />
+    </form>
+  </div>
+</div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
