@@ -139,6 +139,4 @@ In a world where sustainable farming is becoming crucial, this dashboard helps y
 
 **Ready to revolutionize your aquaponics monitoring? Let's connect!**
 
-[Demo Video] \| [Documentation] \| [Contact]
-
 *Built with 💚 for the aquaponics community*
